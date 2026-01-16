@@ -15,8 +15,8 @@ importers:
         specifier: 2.0.0-beta.7
         version: 2.0.0-beta.7
       '@tauri-apps/plugin-shell':
-        specifier: 2.0.0-beta.8
-        version: 2.0.0-beta.8
+        specifier: 2.3.3
+        version: 2.3.3
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -458,6 +458,9 @@ packages:
     resolution: {integrity: sha512-H9w6iISmR+NvH4XuyCZB4zDN10tf9RFt6i/9JHEjaRhAowdAaJ+oiXq/3kedizNClHMtbTQ5j0oqDVPkZDAI8g==}
     engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
 
+  '@tauri-apps/api@2.9.1':
+    resolution: {integrity: sha512-IGlhP6EivjXHepbBic618GOmiWe4URJiIeZFlB7x3czM0yDHHYviH1Xvoiv4FefdkQtn6v7TuwWCRfOGdnVUGw==}
+
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.22':
     resolution: {integrity: sha512-Ofhythvg1Ks2IM87WUYNtgFzm21aU1Zn+8QP81lJy9Y7ZGMxP8FYfqeHz6GIWKI+CYf6I77HA8LHkT9pyE5PYg==}
     engines: {node: '>= 10'}
@@ -526,8 +529,8 @@ packages:
   '@tauri-apps/plugin-os@2.0.0-beta.7':
     resolution: {integrity: sha512-CHo09ecxUU0NFkAqctXeQzdaXw02EXulqcaZnbjrBfRJ2ulmGq7zaUCsHihfcqWcdnmNwmP9Wh/gyznMc1JF9Q==}
 
-  '@tauri-apps/plugin-shell@2.0.0-beta.8':
-    resolution: {integrity: sha512-rFXI6MvsCdSGbuKbDu/NaOePREb9YTVTdeugHdvvljnKWW3dvmThBb2h/8Hxj+Z7Cd8MUoRxPeJWUZbPbJ2Imw==}
+  '@tauri-apps/plugin-shell@2.3.3':
+    resolution: {integrity: sha512-Xod+pRcFxmOWFWEnqH5yZcA7qwAMuaaDkMR1Sply+F8VfBj++CGnj2xf5UoialmjZ2Cvd8qrvSCbU+7GgNVsKQ==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1502,6 +1505,8 @@ snapshots:
 
   '@tauri-apps/api@2.0.0-beta.15': {}
 
+  '@tauri-apps/api@2.9.1': {}
+
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.22':
     optional: true
 
@@ -1549,9 +1554,9 @@ snapshots:
     dependencies:
       '@tauri-apps/api': 2.0.0-beta.15
 
-  '@tauri-apps/plugin-shell@2.0.0-beta.8':
+  '@tauri-apps/plugin-shell@2.3.3':
     dependencies:
-      '@tauri-apps/api': 2.0.0-beta.15
+      '@tauri-apps/api': 2.9.1
 
   '@types/babel__core@7.20.5':
     dependencies:
